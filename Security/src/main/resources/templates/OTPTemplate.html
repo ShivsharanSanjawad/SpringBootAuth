@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>OTP Verification</title>
+    <style>
+        /* Reset styles */
+        body, table, td, a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+        table, td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+        img {
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100% !important;
+            height: 100% !important;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f4f4f4; font-family: Arial, sans-serif;">
+    <!-- Wrapper Table -->
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="background-color: #f4f4f4;">
+        <tr>
+            <td style="padding: 20px 0;">
+                <!-- Main Container -->
+                <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" style="margin: 0 auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    
+                    <!-- Header with Welcome Image -->
+                    <tr>
+                        <td style="padding: 0; text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px 8px 0 0;">
+                            <img src="cid:welcome" alt="Welcome" style="display: block; width: 100%; max-width: 600px; height: auto; border-radius: 8px 8px 0 0;">
+                        </td>
+                    </tr>
+                    
+                    <!-- Content Section -->
+                    <tr>
+                        <td style="padding: 40px 30px;">
+                            <!-- Greeting -->
+                            <h1 style="margin: 0 0 20px 0; font-size: 28px; font-weight: 700; color: #333333; text-align: center;">
+                                Verify Your Account
+                            </h1>
+                            
+                            <!-- Message -->
+                            <p style="margin: 0 0 20px 0; font-size: 16px; line-height: 24px; color: #666666; text-align: center;">
+                                Thank you for choosing us! To complete your verification, please use the One-Time Password (OTP) below:
+                            </p>
+                            
+                            <!-- OTP Box -->
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                <tr>
+                                    <td style="padding: 30px 0; text-align: center;">
+                                        <div style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px 50px; border-radius: 8px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);">
+                                            <span style="font-size: 36px; font-weight: 700; color: #ffffff; letter-spacing: 8px; font-family: 'Courier New', monospace;">
+                                                ${OTP}
+                                            </span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <!-- Expiry Notice -->
+                            <p style="margin: 20px 0; font-size: 14px; line-height: 20px; color: #999999; text-align: center;">
+                                ⏱️ This OTP will expire in <strong style="color: #667eea;">10 minutes</strong>
+                            </p>
+                            
+                            <!-- Security Notice -->
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin-top: 30px;">
+                                <tr>
+                                    <td style="padding: 20px; background-color: #fff3cd; border-left: 4px solid #ffc107; border-radius: 4px;">
+                                        <p style="margin: 0; font-size: 14px; line-height: 20px; color: #856404;">
+                                            🔒 <strong>Security Tip:</strong> Never share this OTP with anyone. Our team will never ask for your OTP.
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <!-- Help Text -->
+                            <p style="margin: 30px 0 0 0; font-size: 14px; line-height: 20px; color: #666666; text-align: center;">
+                                If you didn't request this code, please ignore this email or contact our support team.
+                            </p>
+                        </td>
+                    </tr>
+                    
+                    <!-- Footer -->
+                    <tr>
+                        <td style="padding: 30px; background-color: #f8f9fa; border-radius: 0 0 8px 8px; text-align: center;">
+                            <p style="margin: 0 0 10px 0; font-size: 14px; color: #666666;">
+                                Best regards,<br>
+                                <strong style="color: #333333;">TEAM CODENERDS</strong>
+                            </p>
+                            <p style="margin: 10px 0 0 0; font-size: 12px; color: #999999;">
+                                This is an automated message, please do not reply to this email.
+                            </p>
+                            
+                            <!-- Social Links (Optional) -->
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" style="margin: 20px auto 0 auto;">
+                                <tr>
+                                    <td style="padding: 0 10px;">
+                                        <a href="#" style="text-decoration: none; color: #667eea; font-size: 12px;">Privacy Policy</a>
+                                    </td>
+                                    <td style="padding: 0 10px; color: #cccccc;">|</td>
+                                    <td style="padding: 0 10px;">
+                                        <a href="#" style="text-decoration: none; color: #667eea; font-size: 12px;">Terms of Service</a>
+                                    </td>
+                                    <td style="padding: 0 10px; color: #cccccc;">|</td>
+                                    <td style="padding: 0 10px;">
+                                        <a href="#" style="text-decoration: none; color: #667eea; font-size: 12px;">Contact Us</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
